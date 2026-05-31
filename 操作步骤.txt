@@ -1,0 +1,30 @@
+cd "D:\soft_python\整车试验室性能报告录入平台V4"
+streamlit run app.py
+
+1创建环境
+conda create -p D:\myenvs\report python=3.13
+
+2激活环境
+conda activate D:\myenvs\report
+
+3安装相关库
+pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+
+4定位到目录
+cd "D:\python_date_analysis\自动出报告"
+cd "D:\soft_python\整车试验室性能报告录入平台V4"
+
+5激活目录
+D:
+
+6运行程序
+streamlit run app.py
+
+本地运行说明
+D:
+cd D:\soft_python\整车试验室性能报告录入平台V4
+D:\myenvs\report\python.exe -m streamlit run app.py
+
+D:
+cd D:\soft_python\整车试验室性能报告录入平台V4
+D:\myenvs\report\python.exe -m streamlit run app.py --server.sslCertFile=cert.pem --server.sslKeyFile=key.pem --server.port=8501
